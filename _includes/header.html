@@ -2,9 +2,7 @@
 
   <div class="wrapper">
 
-  
-
-    <a class="site-title" href="{{ site.baseurl }}/"><img class="site-profile-image" src="{{ site.url }}/assets/profile.jpg"></a>
+    <!-- <a href="{{ site.baseurl }}/"><img class="site-profile-image" src="{{ site.url }}/assets/profile.jpg"> -->
     <nav class="site-nav">
       <a href="#" class="menu-icon">
         <svg viewBox="0 0 18 15">
@@ -15,6 +13,7 @@
       </a>
 
       <div class="trigger">
+        <a href="{{ site.baseurl }}/"><img class="site-profile-image" src="{{ site.url }}/assets/profile.jpg">
         {% for my_page in site.pages %}
           {% if my_page.title %}
           <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
