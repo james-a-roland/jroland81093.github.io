@@ -17,6 +17,6 @@ github_username:  jroland81093
 # Build settings
 sass:
   sass_dir: _sass
-include: ['_pages']
+include: ['_pages', '_assets']
 kramdown:
   input: GFM
