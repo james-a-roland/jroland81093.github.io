@@ -259,3 +259,32 @@
         }
     }
 }
+
+/**
+ * About page
+ */
+
+.about-content {
+    background-color: red;
+    text-align: center;
+}
+
+.about-image {
+  border-radius: 80%;
+  width: 150px;
+  height: 150px;
+  -webkit-transition: all .5s ease;
+     -moz-transition: all .5s ease;
+       -o-transition: all .5s ease;
+      -ms-transition: all .5s ease;
+          transition: all .5s ease;
+  &:not(:last-child) {
+            margin-right: 30px;
+  }
+  
+}
+
+.about-image:hover {
+    width: 175px;
+    height: 175px;
+}
