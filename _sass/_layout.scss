@@ -50,6 +50,17 @@
         }
     }
 
+    .contacts {
+        float: right;
+
+        //Gaps between nav items, but not on the last one
+        .icon {
+            &:not(:last-child) {
+            margin-right: 5px;
+            }
+        }
+    }
+
     @include media-query($on-palm) {
         position: absolute;
         top: 9px;
