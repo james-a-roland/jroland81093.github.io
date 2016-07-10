@@ -46,7 +46,7 @@
 
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
-            margin-right: 30px;
+            margin-right: $spacing-unit;
         }
     }
 
@@ -56,7 +56,7 @@
         //Gaps between nav items, but not on the last one
         .icon {
             &:not(:last-child) {
-            margin-right: 5px;
+            margin-right: $spacing-unit / 3;
             }
         }
     }
@@ -264,8 +264,7 @@
  * About page
  */
 
-.about-content {
-    background-color: red;
+.about-images {
     text-align: center;
 }
 
@@ -279,7 +278,7 @@
       -ms-transition: all .5s ease;
           transition: all .5s ease;
   &:not(:last-child) {
-            margin-right: 30px;
+            margin-right: $spacing-unit;
   }
   
 }
@@ -287,4 +286,12 @@
 .about-image:hover {
     width: 175px;
     height: 175px;
+}
+
+.about-title {
+    text-align:center;
+}
+
+.about-content {
+    margin-top: $spacing-unit;
 }
