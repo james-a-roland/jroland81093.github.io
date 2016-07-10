@@ -288,11 +288,21 @@
     height: 175px;
 }
 
+.index-intro {
+    @extend .jumbotron;
+    text-align: center;
+    h4 {
+        display: inline;
+    }
+}
+
+ @import "bootstrap";
+
 /**
  * About
  */
 
- @import "bootstrap";
+
 
 .about-title {
     text-align:center;
