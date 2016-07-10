@@ -130,6 +130,8 @@
 .media-list {
     list-style: none;
     margin-left: 0;
+    display: inline;
+
 }
 
 .footer-col-wrapper {
@@ -283,7 +285,7 @@
   
 }
 
-.index-image:hover {
+.index-image:hover, {
     width: 175px;
     height: 175px;
 }
