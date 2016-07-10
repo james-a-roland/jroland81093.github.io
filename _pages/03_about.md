@@ -4,11 +4,6 @@ title: About
 permalink: /about/
 ---
 
-<div class="about-images">
-	<img class="about-image" src="{{ site.url }}/assets/flip.jpg">
-	<img class="about-image" src="{{ site.url }}/assets/lake.jpg">
-	<img class="about-image" src="{{ site.url }}/assets/stance.jpg">
-</div>
 <div class="about-content">
 <h1 class="about-title">About Me</h1>
 <p>
