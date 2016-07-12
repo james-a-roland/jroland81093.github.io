@@ -1,22 +1,13 @@
 <footer class="site-footer">
-  <div class="wrapper">
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <div class="media-list">
-          {% if site.email %}
-            {% include icon-email.html email=site.email %}
-          {% endif %}
-          
-          {% if site.linkedin_username %}
-            {% include icon-linkedin.html username=site.linkedin_username %}
-          {% endif %}
-          
-          {% if site.github_username %}
-            {% include icon-github.html username=site.github_username %}
-          {% endif %}
-          
+    <div class="wrapper">
+        <div class="footer-col-wrapper">
+            <div class="footer-col footer-col-1">
+                <div class="media-list">
+                    {% if site.email %} {% include icon-email.html email=site.email %} {% endif %} {% if site.linkedin_username %} {% include icon-linkedin.html username=site.linkedin_username %} {% endif %} {% if site.github_username %} {% include icon-github.html username=site.github_username %} {% endif %}
+                </div>
+                <br> James Roland
+                <br> Wushu | Software | Travel
+            </div>
         </div>
-      </div>
     </div>
-  </div>
 </footer>
