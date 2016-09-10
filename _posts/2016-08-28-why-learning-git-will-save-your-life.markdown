@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Why Git Saved My Life - A Brief Introduction To Source Control"
-date:   2016-06-28 20:02:19 -0700
+date:   2016-08-28 20:02:19 -0700
 categories: jekyll tutorials
 ---
 
