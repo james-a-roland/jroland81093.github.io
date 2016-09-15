@@ -20,7 +20,13 @@ Git is just a (nerdy) instance of a version control system. A couple quick comma
 
 [Github][github] and Git are *not* the same thing. Git is a little program that runs on your command line. [GitHub][github] is a big website that allows developers to put their files backed with Git online to share, collaborate on, or just show off with other developers. Think of Git as Microsoft Word on your computer, and GitHub as Google Docs, which can support online sharing of Word documents.
 
-![Ain't Nobody Got Time For Git]({{ site.url }}/assets/posts/aint_nobody.jpg){: .post-image}
+
+{%	include image.html 
+	img="assets/posts/aint_nobody.jpg"
+	title="Ain't Nobody Got Time For Git"
+	caption="Photo Credits to Image Flip"
+	caption-src="https://imgflip.com"
+%}
 
 This is **precisely** what I thought in college, regardless of all of the free and interactive resources available to learn Git (check them out at the bottom of the page). And although it would have taken me half an hour to really teach myself basic Git commands, I decided that losing files, clogging my inbox, and freaking out over lost working code was a better alternative. Seriously though, the value of Git is that you can tinker with working versions of files without fear or breaking or losing information - **even if you're not a software developer**.
 

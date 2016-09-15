@@ -296,6 +296,18 @@
     height: 175px;
 }
 
+/**
+ * Includes
+ */
+ 
+.image-wrapper {
+    text-align: center;
+
+    .image-caption {
+        color: $grey-color;
+        margin-top: $spacing-unit / 3;
+    }
+}
 
 
  @import "bootstrap";
