@@ -2,7 +2,7 @@
 layout: post
 title:  "Why Git Saved My Life - A Brief Introduction To Source Control"
 date:   2016-08-28 20:02:19 -0700
-categories: tech
+categories: software
 ---
 
 Dozens of zipped files lay scattered on my desktop. BTREE_FINAL.c.final was floating next to BTREE_FINAL_WORKING.c. My Gmail was littered with emailed versions of our code. In 3 short hours, our code was due for 30% of our grade, and BTREE_FINAL_3_WORKING.c wasn't working. 
@@ -21,7 +21,8 @@ Git is just a (nerdy) instance of a version control system. A couple quick comma
 [Github][github] and Git are *not* the same thing. Git is a little program that runs on your command line. [GitHub][github] is a big website that allows developers to put their files backed with Git online to share, collaborate on, or just show off with other developers. Think of Git as Microsoft Word on your computer, and GitHub as Google Docs, which can support online sharing of Word documents.
 
 
-{%	include post-image.html 
+{%	
+	include post-image.html 
 	img="assets/posts/aint_nobody.jpg"
 	title="Ain't Nobody Got Time For Git"
 	caption="Photo Credits to Image Flip"
@@ -32,7 +33,7 @@ This is **precisely** what I thought in college, regardless of all of the free a
 
 ### TL;DR ###
 
-Git saved my life by tracking my files, and can save yours too. [Github][github] is a site that hosts Github projects for collaboration. There's tons of free resources out there to learn and it only takes about 30 minutes, so do yourself a favor and check them out!
+I wasted a lot of time and energy by **not** learning Git. If you keep telling yourself you'll learn Git *someday*, do yourself a favor and take the hour to teach yourself right now (college students I'm looking at you). [Github][github] is a site that hosts Github projects for collaboration. There's tons of free resources out there to learn and it only takes about 30 minutes, so do yourself a favor and check them out!
 
 
 
