@@ -2,7 +2,7 @@
 layout: post
 title:  "The Importance of Rest"
 date:   2016-09-09 10:02:19 -0700
-categories: jekyll tutorials
+categories: wushu
 ---
 
 If you're looking for an awesome tutorial involving lots of buzzwords like REST, API, documentation, and CRUD, I'm afraid I'll have to disappoint you. No, today's post is on rest. The rest you do when you bury your face in your pillow at night. The thing that calls after a long day at work, a longer ride on an overpacked train, and an empty refrigerator at home. Yup, I'm talking about literally just packing up and taking it easy for the rest of the night. 
