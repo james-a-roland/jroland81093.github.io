@@ -2,16 +2,12 @@
 layout: default
 ---
 <div class="home">
-    <h1 class="page-heading">Posts</h1>
-    <ul class="post-list">
-        {% for post in site.posts %}
-        <li>
-            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-            <h2>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-        </li>
-        {% endfor %}
-    </ul>
-    <p class="rss-subscribe">subscribe <a href="{{ " /feed.xml " | prepend: site.baseurl }}">via RSS</a></p>
+    <h1 class="page-heading">What's Up, World</h1>
+    <p>
+        Hey, I'm James, a software engineer and Wushu (Chinese martial arts) enthusiast currently from and residing in the San Francisco Bay Area. If I'm not pressing buttons and staring at monitors, you can probably find me kicking, flipping, or choreographing. I began Wushu around the end of high school, and got more into it during my undergrad years at UCLA.  
+    </p>
+    <p>
+    This site contains some of my work and thoughts from both my "professional" career and my martial arts career. Enjoy!
+    </p>
 </div>
+
