@@ -2,17 +2,12 @@
 layout: page
 title: Photos
 permalink: /photos/
-gallery: true
+gallery-enabled: true
 ---
-
 <div id="links">
-    <a href="../assets/about/01_stance.jpg" title="Banana" data-gallery>
-        <img src="../assets/about/01_stance.jpg" alt="Banana">
-    </a>
-    <a href="../assets/about/02_lake.jpg" title="Banana" data-gallery>
-        <img src="../assets/about/02_lake.jpg" alt="Banana">
-    </a>
-    <a href="../assets/about/03_flip.jpg" title="Banana" data-gallery>
-        <img src="../assets/about/02_lake.jpg" alt="Banana">
-    </a>
+	{% for metadata in site.data.gallery-photo-metadata %}
+		<a href="{{ site.url }}/assets/gallery-photos/{{ metadata.path }}" title="{{ metadata.title }}, {{ metadata.date }}" data-gallery>
+			<img src="{{ site.url }}/assets/gallery-photos/{{ metadata.path }}" alt="{{ metadata.title }}, {{ metadata.date }}">
+		</a>
+	{% endfor %}
 </div>
